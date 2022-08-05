@@ -58,7 +58,7 @@ services:
     ports:
       - "9411:9411"
     networks:
-      - currency-network
+      - shopping-network
     restart: always #Restart if there is a problem starting up
 
 networks:
